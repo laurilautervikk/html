@@ -1,0 +1,115 @@
+/* * {
+    background: #000 !important;
+    color: #0f0 !important;
+    outline: solid #f00 1px !important;
+  } */
+
+/* div {
+    border: 1px solid red;
+} */
+
+
+
+html,body
+    {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+
+.hero-container-desktop {
+    background-image: url('../img/hero_1600_500.svg'); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 500px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+
+}
+
+.hero-container-mobile {
+    background-image: url('../img/hero_mobile_400_800.svg'); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 800px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+
+}
+
+.desk-logo {
+    background-image: url('../img/site_logo_160_60.svg'); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 60px; /* You must set a specified height */
+    width: 160px;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+
+}
+
+.mobile-logo {
+    background-image: url('../img/site_logo_80_30.svg'); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 30px; /* You must set a specified height */
+    width: 80px;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+
+}
+
+
+/* JUST A CLASS FOR COLORING TEXT */
+.text-color {
+    color: #454545;
+}
+
+
+/* NAVBAR STYLING */
+
+/* change the background color */
+.navbar-custom {
+    background-color: white;
+}
+
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: #454545;
+}
+
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: grey;
+}
+
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:focus .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #000000;
+}
+
+/* for dropdowns only */
+.navbar-custom .navbar-nav .dropdown-menu {
+    background-color: grey;
+}
+
+/* dropdown item text color */
+.navbar-custom .navbar-nav .dropdown-item {
+    color: #000000;
+}
+
+/* dropdown item hover or focus */
+.navbar-custom .navbar-nav .dropdown-item:hover,
+.navbar-custom .navbar-nav .dropdown-item:focus {
+    color: #eeeeee;
+    background-color: red;
+}
+
+/* END NAVBAR STYLING */
+
