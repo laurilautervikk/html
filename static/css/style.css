@@ -1,12 +1,12 @@
-/* * {
+/*  * {
     background: #000 !important;
     color: #0f0 !important;
     outline: solid #f00 1px !important;
-  } */
+  } 
 
-/* div {
+ div {
     border: 1px solid red;
-} */
+} */ 
 
 
 
@@ -17,6 +17,13 @@ html,body
     margin: 0px;
     padding: 0px;
     overflow-x: hidden; 
+}
+
+
+/* I'd rather use bootstrap 5 for this */
+.display-6 {
+    font-size: 1.8em;
+    font-weight: 400;
 }
 
 
