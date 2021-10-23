@@ -2,7 +2,7 @@
 
 /* RED BORDER FOR TESTING */
 
-    div {
+div {
     border: 1px solid red;
 }
 
@@ -31,9 +31,9 @@ p {
 @media (max-width: 576px) {
 
     .hero-container {
-        background-image: url('../img/hero_image_mobile.webp'); /* The image used */
+        background-image: url('../img/hero_image_mobile_sm.webp'); /* The image used */
         background-color: #cccccc; /* Used if the image is unavailable */
-        height: 100vh; /* You must set a specified height */
+        height: 300px; /* You must set a specified height */
         width: 100%;
         background-position: center; /* Center the image */
         background-repeat: no-repeat; /* Do not repeat the image */
@@ -79,9 +79,9 @@ p {
   @media (min-width: 577px) {
 
     .hero-container {
-        background-image: url('../img/hero_image.webp'); /* The image used */
+        background-image: url('../img/hero_image_sm.webp'); /* The image used */
         background-color: green; /* Used if the image is unavailable */
-        height: 500px; /* You must set a specified height */
+        height: 300px; /* You must set a specified height */
         width: 100%;
         background-position: center; /* Center the image */
         background-repeat: no-repeat; /* Do not repeat the image */

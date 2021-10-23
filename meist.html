@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -11,7 +10,7 @@
     <!-- Bootstrap 4 CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <!-- Local CSS -->
-    <link href="static/css/style.css" rel="stylesheet">
+    <link href="static/css/style_meist.css" rel="stylesheet">
 
 
     
@@ -31,8 +30,8 @@
 
           <nav class="navbar navbar-expand-sm navbar-light navbar-custom navbar-position">
   
-              <!-- <a class="desk-logo navbar-brand me-auto d-none d-lg-block" href="#"></a>
-              <a class="mobile-logo navbar-brand me-auto d-lg-none" href="#"></a> -->
+              <a class="desk-logo navbar-brand me-auto d-none d-lg-block" href="#"></a>
+              <a class="mobile-logo navbar-brand me-auto d-lg-none" href="#"></a>
 
               <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -40,19 +39,20 @@
 
 
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                  <!-- d-flex justify-content-end -->
- 
-                <!-- Add space to menu items --> <!-- FIX MOBILE MENU -->
+                
+
+                <!-- FIX THE COLLAPSE PUSHING CONTENT DOWN -->
+                <!-- https://stackoverflow.com/questions/43439250/bootstrap-4-stop-collapse-from-pushing-content-down -->
                   <ul class="navbar-nav text-center text-color">
 
                     <li class="nav-item h2 active">
-                      <a class="nav-link" aria-current="page" href="#">Pealeht</a>
+                      <a class="nav-link" aria-current="page" href="index.html">Pealeht</a>
                     </li>
                     <li class="nav-item h2">
-                      <a class="nav-link" href="#">Meist</a>
+                      <a class="nav-link" href="meist.html">Meist</a>
                     </li>
                     <li class="nav-item h2">
-                      <a class="nav-link" href="#">Kontakt</a>
+                      <a class="nav-link" href="kontakt.html">Kontakt</a>
                     </li>
 
                   </ul>
@@ -66,52 +66,51 @@
 
           <div class="row justify-content-center h-100">
             <div class="col-lg-12 slogan-position text-center">
-              <img class="img-fluid" src="static/img/jalutame_320_120_white.svg" alt="Jalutame logo">
-              <p class="text-bright h1">Jalutame teie koeraga, kui te ise ei viitsi.</p>
-              <button class="btn btn-jumbo pointer" id="btn-jumbo">VÕTA ÜHENDUST</button>
+              <!-- <img class="img-fluid" src="static/img/jalutame_320_120_white.svg" alt="Jalutame logo"> -->
+              <p class="text-bright h1">Kes me oleme?</p>
+              <!-- <button class="btn btn-jumbo pointer" id="btn-jumbo">VÕTA ÜHENDUST</button> -->
             </div>
           </div>
 
         <!-- CONTENT SECTION -->
 
         <div class="container-fluid">
-          <div class="row p-4 commontext">
-            <div class="col-xl-6 col-lg-12">
 
-              <div class="row p-4">
-                <h2>Kuidas me aitame?</h2>
-              </div>
+                        <div class="row p-4">
+                            <h2>Kuidas me seda teeme?</h2>
+                        </div>
 
-              <div class="row p-4 px-3">
-                <div class="col-lg-6 col-md-9 col-sm-12">
-                  <h3>Võtke ühendust</h3>
-                  <p>Räägime teie koerast ja tema vajadustest, lepime kokku kus ja millal jalutame.</p>
-                </div>
-              </div>
+                        <div class="row p-4 px-3">
+                            <div class="col-lg-6 col-md-9 col-sm-12">
 
-              <div class="row justify-content-center p-4">
-                <div class="col-md-6 col-sm-6">
-                  <img class="img-fluid" src="static/img/dog_prints.svg" alt="dog vector image">
-                </div>
-              </div>
+                                <div class="card" style="width: 18rem;">
+                                    <img class="card-img-top" src="..." alt="Card image cap">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Card title</h5>
+                                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    </div>
+                                  </div>
+                            
+                        </div>
 
-              <div class="row p-4 px-3 justify-content-end">
-                <div class="col-lg-6 col-md-9 col-sm-12">
-                  <h3>Jalutame koera ära</h3>
-                <p>Tuleme koerale jarele, jalutame ta ära ja toome tagasi. Tasuda saab nii sularahas, kui arve allusel.</p>
-                </div>
-              </div>
-            </div>
+                        <div class="col-lg-6 col-md-9 col-sm-12">
+                            
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="..." alt="Card image cap">
+                                <div class="card-body">
+                                  <h5 class="card-title">Card title</h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                              </div>
 
-            
-            <div class="col-xl-6 col-md-12 col-sm-12 d-flex flex-wrap align-items-center">
-              <div class="container d-flex justify-content-center">
-                <img class="img-fluid" src="static/img/success.webp" alt="A woman with a dog">
-              </div>
-            </div>
-            
-            
-          </div>
+                        </div>
+
+                    </div>
+
+                    
+               
+                
+           
         </div>
 
         <!-- FOOTER SECTION -->
