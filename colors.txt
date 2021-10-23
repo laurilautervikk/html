@@ -1,0 +1,8 @@
+
+/* NAVBAR */
+rgb(242, 242, 242)
+
+rgb(229, 229, 204);
+
+navbar url
+navbar-nav mx-auto mb-2 mb-lg-0 text-color d-flex justify-content-around
