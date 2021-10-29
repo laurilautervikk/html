@@ -91,6 +91,10 @@ html,body
             width: 18rem;
         }
 
+        .phone-icon {
+            max-width: 30vw;
+            height: auto;
+        }
  
 
     }
